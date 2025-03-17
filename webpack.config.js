@@ -27,9 +27,9 @@ module.exports = {
             name: 'app2',
             filename: 'remoteEntry.js',
             exposes: {
-                './Vegetables': './src/components/Vegetables'
+                './Vegetables': './src/components/Vegetables',
+                './MegaButton': './src/components/MegaButton'
             },
-
         }),
     ],
     devServer: {

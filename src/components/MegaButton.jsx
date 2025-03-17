@@ -1,26 +1,26 @@
 import React from "react";
 
-const Button = () => {
+const MegaButton = () => {
   return (
     <>
       <div>
         <button
-          onClick={() => alert("it works!")}
+          onClick={() => alert("it works, mega!")}
           style={{
-            backgroundColor: "#2e438f",
+            backgroundColor: "#f026ce",
             color: "white",
             padding: "10px 20px",
             border: "none",
-            borderRadius: "5px",
+            borderRadius: "15px",
             cursor: "pointer",
             transition: "background-color 0.3s ease",
           }}
         >
-          React App Two Button
+          React App Two MegaButton
         </button>
       </div>
     </>
   );
 };
 
-export default Button;
+export default MegaButton;
